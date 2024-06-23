@@ -1,0 +1,310 @@
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+
+}
+
+
+.oswald {
+    font-family: "Oswald", sans-serif;
+
+}
+
+/* 
+ */
+
+/* boilar plate{
+    googlefont,
+    fontawesome,
+    img,
+    color,
+    bootstrap
+
+} */
+
+/* common css */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Oswald", sans-serif;
+}
+
+:root {
+    --color1: #bed9ec;
+    --color2: #5bc5f4;
+    --color3:#0872b9;
+    --open:"Open Sans", sans-serif;
+}
+
+h5,ul{
+    margin: 0;
+} 
+
+/* common css end */
+/* ...................................................................... */
+
+
+/* welcome area */
+.welcomePart{
+background-color: var(--color3);
+
+justify-content: space-between;
+}
+.welcomePart h5{
+    font-size: 14 px;
+    color: white;
+   
+}
+
+
+.welcomePart ul li a:hover{
+    color: black!important;
+}
+
+/* welcome area end */
+/* ...................................................................... */
+
+
+/*header area */
+
+nav ul li a:hover{
+color: var(--color2) !important;
+}
+
+
+
+
+/* header area end */
+
+/* ...................................................................... */
+
+
+/*hero area */
+.herocontM{
+   background: url(../img/01-Beatles.png) no-repeat center;
+   background-size: cover;
+   padding: 150px 0;
+}
+
+.herocontM h2{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.herocontM h1{
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.herocontM p{
+    line-height: 1.9;
+    font-size: 17px;
+}
+.btn1 , .btn2{
+background-color: var(--color3);
+border-radius: 0;
+border: 2px solid var(--color3);
+transition: 0.5s;
+}
+.btn1:hover , .btn2:hover{
+    background-color: transparent;
+    
+    border: 2px solid white;
+    }
+/* hero area end */
+/* ...................................................................... */
+
+
+/* about area */
+.about,.service{
+    padding-top: 63px;
+}
+.about .abouttext{
+    font-size: 16px;
+}
+.devider .line1{
+    height: 38px;
+    width: 47px;
+    color: var(--color3);
+}
+.devider .line2{
+    height: 38px;
+    width: 3px;
+    color: var(--color3);
+}
+.devider .line3{
+    height: 38px;
+    width: 2px;
+    color: var(--color3);
+}
+.devider .line4{
+    height: 38px;
+    width: 1px;
+    color: var(--color3);
+}
+/* about area end */
+/* ...................................................................... */
+
+
+
+/* service area */
+.serviceConItem{
+    background-color: #f1f1f1;
+    text-align: center;
+    
+}
+.serviceText h4{
+    color:#353535;
+    
+}
+.serviceText p{
+    color:#555555;
+    font-size: 16px;
+    line-height: 1.9;
+}
+.serviceIcon{
+    height: 80px;
+    width: 80px;
+    border: double white 9px;
+    border-radius: 50%;
+    top: -40px;
+    left: 40%;
+    background-color: #f1f1f1;
+    transition: 0.4s;
+}
+.serviceConItem:hover .serviceIcon{
+background-color: var(--color2);
+}
+
+/* service area end */
+/* ...................................................................... */
+
+
+/* portfolio start*/
+.portconM .imgoverlay{
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 0;
+    visibility: hidden;
+    opacity: 0;
+   transition: 0.9s;
+}
+.portImg:hover .imgoverlay{
+    visibility: visible;
+    opacity: 1;
+    } 
+.imgoverlay .overIcon{
+    background-color: var(--color2);
+    color: white;
+    height: 41px;
+    width: 41px;
+    border-radius: 50%;
+}
+
+/* portfolio area end */
+/* ...................................................................... */
+
+
+/* team area */
+ .teamMCon .teamtext  h3,.teamMCon .teamtext  p{
+padding: 0;
+margin: 0;
+}
+.teamImg .teamoverlay{
+    width: 33%;
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 0;
+    right: 0;
+}
+.teamIcon{
+    
+   
+}
+.teamoverlay li a{
+    background-color: transparent;
+    height: 40px;
+    width: 40px;
+    border: 1px solid white;
+border-radius: 50%;
+   display: flex;
+   justify-content: center;
+align-items: center;
+color: white;
+transition: 0.6s;
+}
+.teamoverlay li a:hover {
+    background-color:var(--color2) ;
+    border-color: var(--color2);
+
+}
+
+.teamoverlay{
+    visibility: hidden;
+opacity: 0;
+transition: 0.6s;
+}
+.teamImg{
+    transition: 0.6s;
+}
+.teamImg:hover .teamoverlay{
+    visibility: visible;
+    opacity: 1;  
+}
+.teamImg:hover ~ .teamtext h3{
+color: var(--color3);
+}
+.teamtext h3{
+    transition: 0.7s;
+}
+.teamtext p{
+    font-weight: 600;
+    font-size: 16px;
+}
+.teamImg:hover{
+    /* box-shadow: ; */
+}
+/* team area end */
+/* ...................................................................... */
+
+
+/* testimonial area */
+
+
+/* testimonial area end */
+/* ...................................................................... */
+
+
+/* Footer area */
+
+
+/* Footer area end */
+/* ...................................................................... */
+
+
+/* footer bottom area */
+
+
+/* footer bottom area end */
+/* ...................................................................... */
