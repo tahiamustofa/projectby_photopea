@@ -195,9 +195,11 @@ transition: 0.5s;
     border: double white 9px;
     border-radius: 50%;
     top: -40px;
-    left: 40%;
-    background-color: #f1f1f1;
+    left: 50%;
+    transform: translateX(-50%);
     transition: 0.4s;
+    background-color: #f1f1f1;
+    
 }
 .serviceConItem:hover .serviceIcon{
 background-color: var(--color2);
@@ -328,12 +330,36 @@ color: var(--color2);}
     height: 35px;
     width: 35px;
 }
+.menuLink ul li a{
+    padding: 7px 0px;
+   
+    transition: 0.4s;
+}
+.menuLink ul li a:hover{
+   color: var(--color2);
+}
 /* Footer area end */
 /* ...................................................................... */
 
 
 /* footer bottom area */
-
+.footerBtm p a{
+color: var(--color2);
+}
+.footerBtm p{
+    font-size: 13px;
+}
+.footerBtm{
+    background-color: #555555;
+}
 
 /* footer bottom area end */
 /* ...................................................................... */
+
+/* 
+min 1400 => xxl == text-xxl-center
+1200>1399 =>xl == text-xl-center
+992>1199 =>lg == text-lg-center
+768>991 =>md == text-md-center
+576>767 =>sm == text-sm-center
+max-576 =>xs == text-center */
