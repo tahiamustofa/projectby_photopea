@@ -299,11 +299,11 @@ color: var(--color3);
 .testParagraph ul li i{
 color: var(--color2);}
 
-.testConM .col-6 .testParagraph{
+.testConM .testParagraph{
     background-color: #f1f1f1;
     
 }
-.testConM .col-6 .testParagraph .devider{
+.testConM  .testParagraph .devider{
     height: 40px;
     width: 40px;
    
