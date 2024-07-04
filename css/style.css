@@ -146,22 +146,22 @@ transition: 0.5s;
     font-size: 16px;
 }
 .devider .line1{
-    height: 4px;
+    height: 1px;
     width: 47px;
     background-color: var(--color3);
 }
 .devider .line2{
-    height: 4px;
+    height: 1px;
     width: 3px;
     background-color: var(--color3);
 }
 .devider .line3{
-    height: 4px;
+    height: 1px;
     width: 2px;
     background-color: var(--color3);
 }
 .devider .line4{
-    height: 4px;
+    height: 1px;
     width: 1px;
     background-color: var(--color3);
 }
@@ -349,10 +349,12 @@ color: var(--color2);
 }
 .footerBtm p{
     font-size: 13px;
+    margin-bottom: 0;
 }
 .footerBtm{
     background-color: #555555;
 }
+
 
 /* footer bottom area end */
 /* ...................................................................... */
@@ -364,3 +366,21 @@ min 1400 => xxl == text-xxl-center
 768>991 =>md == text-md-center
 576>767 =>sm == text-sm-center
 max-576 =>xs == text-center */
+
+
+
+@media screen and (max-width:576px){
+   
+    .herocontM{
+        padding: 35px 0;
+       } 
+
+       .herocontM h2{
+        font-size: 20px;
+       }
+       .herocontM h1{
+        font-size: 16px;
+       }
+
+
+    }
